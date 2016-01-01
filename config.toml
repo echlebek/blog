@@ -1,0 +1,9 @@
+baseurl = "https://chlebek.ca/"
+languageCode = "en-us"
+title = "Eric's Blog"
+canonifyurls = true
+
+[params]
+  cover = "images/screenshot.jpg"
+  author = "Eric Chlebek"
+  hideHUGOSupport = true

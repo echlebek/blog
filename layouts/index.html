@@ -1,0 +1,12 @@
+{{ partial "header.html" }}
+    <main id="resume" class="flex-auto px4">
+      <div>
+        {{ range first 10 .Data.Pages }}
+            {{ .Render "summary"}}
+        {{ end }}
+      </div>
+      <div class="center p4">
+        <a href="/"><img class="center circle" src="/tree.jpg" style="width: 5%;"></img></a>
+      </div>
+    </main>
+{{ partial "footer.html" }}

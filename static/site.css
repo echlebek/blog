@@ -1,0 +1,29 @@
+@media print
+{    
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+  p {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+@media screen
+{
+  .print, .print *
+  {
+    display: none !important;
+  }
+  html {
+    max-width: 1800px;
+    position: relative;
+    margin: 0 auto;
+    background: #000000;
+  }
+}

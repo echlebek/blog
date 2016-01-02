@@ -91,7 +91,7 @@ After skiing at Gibson's Pass, the cold weather really started to sink in. We pa
 Hope, and spent the night at a hotel. We rose before dawn to eat a "continental breakfast", and headed north on
 the Coquihalla.
 
-Zoa ridge is accessible via Falls Lake road, near the Coquihalla summit. The trail follows a very wide pipeline
+Zoa ridge is accessible via Falls Lake road, near the Coquihalla summit. The trail follows a very wide road and then pipeline
 right-of-way for a few kilometers before entering heavy timber. On the other side of the ridge, the trees
 are more sparse, and there are many excellent slopes for skiing.
 

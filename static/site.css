@@ -27,3 +27,16 @@
     background: #000000;
   }
 }
+
+.navbar {
+	-webkit-box-shadow: -5px 5px 22px 0px rgba(0,0,0,0.54);
+	-moz-box-shadow: -5px 5px 22px 0px rgba(0,0,0,0.54);
+	box-shadow: -5px 5px 22px 0px rgba(0,0,0,0.54);
+    background-image: url(/bg.jpg);
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}

@@ -110,7 +110,7 @@ The top of the ridge was fantastically beautiful.
 
 ![Zoa Ridge](https://chlebek.ca/zoa_3.jpg)
 
-In the image below, on the right, there are many runs possible. We did not ski down all the way, but another traveler mentioned to us
+In the image below, on the left, there are many runs possible. We did not ski down all the way, but another traveler mentioned to us
 that the runs come out at a power line, which would be a helpful rallying point. Unfortunately, we didn't have enough
 time to ski more than a single run on these slopes. However, the run we did was easily the best run I've had this year, and I made
 well over 20 tight turns in the perfect powder. Skiing down was also quite enjoyable, particularly on the pipeline, although it was

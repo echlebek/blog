@@ -21,7 +21,7 @@
     display: none !important;
   }
   html {
-    max-width: 800;
+    max-width: 800px;
 	line-height: 1.6;
     position: relative;
     margin: 0 auto;
@@ -40,8 +40,11 @@
     left: 0;
     z-index: 999;
     width: 100%;
+    min-width: 800px;
 }
-
-body, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Special Elite', sans-serif;
+}
+body {
 	font-family: 'Raleway', sans-serif;
 }

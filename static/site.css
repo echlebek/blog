@@ -21,10 +21,11 @@
     display: none !important;
   }
   html {
-    max-width: 1800px;
+    max-width: 800;
+	line-height: 1.6;
     position: relative;
     margin: 0 auto;
-    background: #000000;
+    background: #ffffff;
   }
 }
 

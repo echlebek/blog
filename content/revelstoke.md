@@ -4,9 +4,6 @@ draft = false
 title = "Revelstoke Slack-Country"
 +++
 
-Revelstoke
-----------
-
 [Revelstoke](https://en.wikipedia.org/wiki/Revelstoke,_British_Columbia)
 is not easy to get to. It's a historic railway town in the south-east
 quadrant of BC, and the drive there from Vancouver is over 600 km. It also

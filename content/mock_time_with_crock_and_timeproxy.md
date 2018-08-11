@@ -155,12 +155,12 @@ implementation of `timeproxy.Proxy`, suitable for use in unit testing. Using
 
 ```go
 import (
-  "github.com/echlebek/crock"
-  time "github.com/echlebek/timeproxy"
+	"github.com/echlebek/crock"
+	time "github.com/echlebek/timeproxy"
 )
 
 func init() {
-  time.TimeProxy = crock.NewTime(time.Unix(0, 0))
+	time.TimeProxy = crock.NewTime(time.Unix(0, 0))
 }
 ```
 
@@ -179,25 +179,27 @@ Here's a toy example - a ticker is set to tick every 1000 hours. With `crock`,
 we don't need to wait to observe the tick.
 
 ```go
-import (
-  "github.com/echlebek/crock"
-  time "github.com/echlebek/timeproxy"
+package main
 
-  "testing"
+import (
+	"testing"
+
+	"github.com/echlebek/crock"
+	time "github.com/echlebek/timeproxy"
 )
 
 var testTime = crock.NewTime(time.Unix(0, 0))
 
 func init() {
-  time.TimeProxy = testTime
+	time.TimeProxy = testTime
 }
 
 func TestVeryLongTick(t *testing.T) {
-  ticker := time.NewTicker(time.Hour * 1000)
-  defer ticker.Stop()
+	ticker := time.NewTicker(time.Hour * 1000)
+	defer ticker.Stop()
 
-  testTime.Set(time.Now().Add(time.Hour * 1001))
-  <-ticker.C
+	testTime.Set(time.Now().Add(time.Hour * 1001))
+	<-ticker.C
 }
 ```
 
